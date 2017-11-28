@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Nerds - Каталог</title>
+	<link rel="stylesheet" type="text/css" href="css/nerds.css">
 </head>
 <body>
 	<header class="main-header">
@@ -10,7 +11,7 @@
 			<section class="header-menu">
 				<div class="logo-picture">
 				  <a href="index.html">
-					  <img src="img/logo.png" width="139" height="56" alt="Nerds">
+					  <img src="img/nerds-logo.jpg" width="139" height="56" alt="Nerds">
 				  </a>
 			  </div>
 				<nav class="main-navigation">
@@ -105,69 +106,93 @@
 			<div class="catalog-list">
 				<div class="catalog-item">
 					<span></span>
-					<img src="img/" width="" height="" alt="Sedona">
+					<img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
 					<div class="description">
 						<h3 class="description-title">SEDONA</h3>
 						<div class="description-text">
 							Информационный сайт для туристов
 						</div>
-						<a class="button-background-red" href="">9900 р.</a>
+						<a class="button-background-red" href="#">
+              <button class="Find-more">
+              9 900 руб.
+              </button>
+            </a>
 					</div>
 				</div>
 				<div class="catalog-item">
 					<span></span>
-					<img src="img/" width="" height="" alt="Pink App">
+					<img src="img/img-pink.jpg" width="360" height="576" alt="Pink App">
 					<div class="description">
 						<h3 class="description-title">PINK APP</h3>
 						<div class="description-text">
 						Продуктовый лендинг приложения для IOS и Android
 						</div>
-						<a class="button-background-red" href="">9900 р.</a>
+						<a class="button-background-red" href="#">
+							<button class="Find-more">
+							9 900 руб.
+							</button>
+						</a>
 					</div>
 				</div>
 				<div class="catalog-item">
 					<span></span>
-					<img src="img/" width="" height="" alt="Barbershop">
+					<img src="img/img-barbershop.jpg" width="360" height="576" alt="Barbershop">
 					<div class="description">
 						<h3 class="description-title">BARBERSHOP</h3>
 						<div class="description-text">
 							Сайт салона красоты.<br>
 						  Для мужчин, да.
 						</div>
-						<a class="button-background-red" href="">9900 р.</a>
+						<a class="button-background-red" href="#">
+              <button class="Find-more">
+              9 900 руб.
+              </button>
+            </a>
 					</div>
 				</div>
 				<div class="catalog-item">
 					<span></span>
-					<img src="img/" width="" height="" alt="Mishka">
+					<img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
 					<div class="description">
 						<h3 class="description-title">MISHKA</h3>
 						<div class="description-text">
 							Интернет-магазин вязаных игрушек
 						</div>
-						<a class="button-background-red" href="">9900 р.</a>
+						<a class="button-background-red" href="#">
+							<button class="Find-more">
+							9 900 руб.
+							</button>
+						</a>
 					</div>
 				</div>
 				<div class="catalog-item">
 					<span></span>
-					<img src="img/" width="" height="" alt="A Plus">
+					<img src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
 					<div class="description">
 						<h3 class="description-title">A PLUS</h3>
 						<div class="description-text">
 							Лендинг курсов повышения квалификации
 						</div>
-						<a class="button-background-red" href="">9900 р.</a>
+						<a class="button-background-red" href="#">
+							<button class="Find-more">
+							9 900 руб.
+							</button>
+						</a>
 					</div>
 				</div>
 				<div class="catalog-item">
 					<span></span>
-					<img src="img/" width="" height="" alt="KBACT">
+					<img src="img/img-kvast.jpg" width="360" height="576" alt="KBACT">
 					<div class="description">
 						<h3 class="description-title">KBACT</h3>
 						<div class="description-text">
 							Промо-сайт производителя крафтового кваса
 						</div>
-						<a class="button-background-red" href="">9900 р.</a>
+						<a class="button-background-red" href="#">
+							<button class="Find-more">
+							9 900 руб.
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -181,14 +206,20 @@
 	</div>
 
 	<section class="map">
-		<div class="map-image" id="map-canvas"></div>
+		<div class="map-image" id="map-canvas">
+      <img src="img/map.png" width="1140" height="416" alt="Map">
+		</div>
 		<div class="container">
 			<div class="contacts">
 				<h2 class="contacts-title">NЁRDS DESIGN STUDIO</h2>
 				<p>191186, Санкт-Петербург,<br>
 				ул. Б. Конюшенная, д. 19/8</p>
 				<p>тел. +7 (812) 275-75-75</p>
-				<a class="button-background-red" href="form.html">Напишите нам</a>
+				<a class="button-background-red" href="form.html">
+					<button class="find-more">
+						Напишите нам
+					</button>
+				</a>
 			</div>
 			<section class="feedback-form">
 				<div class="feedback-form-close"></div>
@@ -203,8 +234,11 @@
 					</div>
 					<label for="text">Текст письма:</label>
 					<textarea name="text" id="text" placeholder="в свободной форме"></textarea>
-					<button class="button-background-red" type="submit">Отправить</button>
-        	<button class="button-background-gray" type="submit">Отмена</button>
+					<a class="" href="">
+						<button class="find-more" type="submit">
+							Отправить
+						</button>
+					</a>
 				</form>
 			</section>
 		</div>
@@ -213,9 +247,21 @@
 	<footer class="main-footer">
 		<div class="container">
 			<div class="footer-social">
-				<a class="social-button" href=""><i class="icon-vk"></i></a>
-				<a class="social-button" href=""><i class="icon-facebook"></i></a>
-				<a class="social-button" href=""><i class="icon-instagramm"></i></a>
+				<a class="social-button" href="">
+					<i class="icon-vk">
+						<img src="img/vk-icon.png" width="26" height="15">
+					</i>
+				</a>
+				<a class="social-button" href="">
+					<i class="icon-facebook">
+						<img src="img/fb-icon.png" width="12" height="22">
+					</i>
+				</a>
+				<a class="social-button" href="">
+					<i class="icon-instagram">
+						<img src="img/insta-icon.png" width="21" height="21">
+					</i>
+				</a>
 			</div>
 			<div class="footer-text">
 				<p>Давайте дружить, это выгодно</p>

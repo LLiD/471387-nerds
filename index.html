@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Nerds</title>
+    <link rel="stylesheet" type="text/css" href="css/nerds.css">
   </head>
   <body>
     <header class="main-header">
@@ -15,7 +16,7 @@
           >Студия</a></li>
         <li><a href=""
           >Клиенты</a></li>
-        <li><a href=""
+        <li><a href="inner.html"
           >Магазин</a></li>
         <li><a href=""
           >Контакты</a></li>
@@ -26,16 +27,36 @@
       </ul>
     </nav>
     <section class="slider">
+      <!--Кнопки переключения слайдера
+      (куда это вставить правильнее?)-->
+      <ul class="slides-switches">
+        <li class="slide-radio">
+          <button class="slide-btn">
+          </button>
+        </li>
+        <li class="slide-radio">
+          <button class="slide-btn">
+          </button>
+        </li>
+        <li class="slide-radio">
+          <button class="slide-btn">
+          </button>
+        </li>
+      </ul>
       <article class="slide-first">
         <div class="slide-text">
           <div class="slide-title">Долго, дорого,<br> скрупулезно</div>
             <p>Математически выверенный дизайн
             для вашего сайта или мобильного приложения.
             </p>
-          <a class="button-background-red" href="#">Узнать больше</a>
+            <a class="button-background-red" href="#">
+              <button class="Find-more">
+              Узнать больше
+              </button>
+            </a>
         </div>
         <div class="slide-img">
-          <img src="img/" width="" height="" alt="">
+          <img src="img/slide1.jpg" width="698" height="413" alt="Слайд 1">
         </div>
       </article>
       <article class="slide-second">
@@ -44,10 +65,14 @@
             <p>Никакого креатива, только математические формулы,
              для расчета идеальных пропорций.
             </p>
-          <a class="button-background-red" href="#">Узнать больше</a>
+            <a class="button-background-red" href="#">
+              <button class="Find-more">
+              Узнать больше
+              </button>
+            </a>
         </div>
         <div class="slide-img">
-          <img src="img/" width="" height="" alt="">
+          <img src="img/slide2.jpg" width="663" height="430" alt="Слайд 2">
         </div>
       </article>
       <article class="slide-third">
@@ -56,10 +81,14 @@
             <p>Работать днем, как все? Мы против этого.
               Ближе к полуночи работа только начинается.
             </p>
-          <a class="button-background-red" href="#">Узнать больше</a>
+            <a class="button-background-red" href="#">
+            <button class="Find-more">
+              Узнать больше
+            </button>
+          </a>
         </div>
         <div class="slide-img">
-          <img src="img/" width="" height="" alt="">
+          <img src="img/slide3.jpg" width="" height="" alt="">
         </div>
       </article>
     </section>
@@ -75,7 +104,11 @@
          </div>
          <h2 class="services-title">Веб-сайты</h2>
          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-         <a class="button-background-red" href="#"><button>Заказать</button></a>
+         <a class="button-background-red" href="#">
+           <button class="order">
+             Заказать
+           </button>
+         </a>
        </div>
 
        <div class="services-item">
@@ -84,7 +117,11 @@
          </div>
          <h2 class="services-title">Приложения</h2>
          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-         <a class="button-background-green" href="#"><button>Заказать</button></a>
+         <a class="button-background-green" href="#">
+           <button class="order">
+             Заказать
+           </button>
+         </a>
        </div>
 
        <div class="services-item">
@@ -93,7 +130,11 @@
          </div>
          <h2 class="services-title">Презентации</h2>
          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-         <a class="button-background-orange" href="#"><button>Заказать</button></a>
+         <a class="button-background-yellow" href="#">
+           <button class="order">
+             Заказать
+           </button>
+         </a>
        </div>
      </section>
    </div>
@@ -161,7 +202,12 @@
        <p>191186, Санкт-Петербург,<br>
        ул. Б. Конюшенная, д. 19/8</p>
        <p>тел. +7 (812) 275-75-75</p>
-       <a class="button-background-red" href="form.html">Напишите нам</a>
+         <a class="button-background-red" href="form.html">
+           <button class="find-more">
+             Напишите нам
+           </button>
+         </a>
+       </button>
      </div>
      <section class="feedback-form">
        <div class="feedback-form-close"></div>
@@ -176,8 +222,11 @@
          </div>
          <label for="text">Текст письма:</label>
          <textarea name="text" id="text" placeholder="в свободной форме"></textarea>
-         <button class="button-background-red" type="submit">Отправить</button>
-         <button class="button-background-gray" type="submit">Отмена</button>
+         <a class="" href="">
+           <button class="find-more" type="submit">
+             Отправить
+           </button>
+         </a>
        </form>
      </section>
    </div>
@@ -186,9 +235,21 @@
  <footer class="main-footer">
    <div class="container">
      <div class="footer-social">
-       <a class="social-button" href=""><i class="icon-vk"></i></a>
-       <a class="social-button" href=""><i class="icon-facebook"></i></a>
-       <a class="social-button" href=""><i class="icon-instagramm"></i></a>
+       <a class="social-button" href="">
+         <i class="icon-vk">
+           <img src="img/vk-icon.png" width="26" height="15">
+         </i>
+       </a>
+       <a class="social-button" href="">
+         <i class="icon-facebook">
+           <img src="img/fb-icon.png" width="12" height="22">
+         </i>
+       </a>
+       <a class="social-button" href="">
+         <i class="icon-instagram">
+           <img src="img/insta-icon.png" width="21" height="21">
+         </i>
+       </a>
      </div>
      <div class="footer-text">
        <p>Давайте дружить, это выгодно</p>
